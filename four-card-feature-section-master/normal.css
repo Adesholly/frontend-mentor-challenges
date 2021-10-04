@@ -15,7 +15,7 @@ body {
 
 
 header {
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: 500px;
     text-align: center;
 
@@ -33,6 +33,7 @@ h1 span {
 
 p {
     color: hsl(229, 6%, 66%);
+    font-size: 12px;
 }
 
  .container {
@@ -45,7 +46,7 @@ p {
 
  .card {
     background-color: #fff;
-    width: 350px;
+    width: 320px;
     padding: 30px;
     align-items: center;
     margin: 15px;
@@ -61,7 +62,7 @@ p {
 .card::after {
     content: '';
     position: absolute;
-    height: 6px;
+    height: 4px;
     top: 0;
     right: 0;
     width: 100%;
@@ -88,9 +89,9 @@ p {
 }
 
 img {
-   
-    display:    block;
-    margin-left:    auto;
+    display: block;
+	margin-left: auto;
+
 }
 
 .push-card {
