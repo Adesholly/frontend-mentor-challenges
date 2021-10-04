@@ -89,7 +89,8 @@ p {
 
 img {
    
-
+    display:    block;
+    margin-left:    auto;
 }
 
 .push-card {
