@@ -176,6 +176,11 @@ form.successful .success {
     
 }
 
+
+.footer {
+    text-align: center;
+}
+
 @keyframes hideSuccess {
     to {
         width: 0;
