@@ -14,9 +14,9 @@ body {
 
 
 
-header {
-    margin: 40px auto;
-    max-width: 500px;
+.header {
+    margin: 50px auto;
+    max-width: 420px;
     text-align: center;
 
 }
@@ -34,6 +34,7 @@ h1 span {
 p {
     color: hsl(229, 6%, 66%);
     font-size: 12px;
+    
 }
 
  .container {
@@ -98,13 +99,13 @@ img {
     transform: translateY(50%);
 }
 
-h3 {
+h2 {
     color: hsl(234, 12%, 34%);
     margin: 0;
 }
 
 
-footer {
+.footer {
     text-align: center;
 }
 
