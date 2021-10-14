@@ -161,7 +161,6 @@ form.successful .success {
     color: hsl(147, 91%, 62%);
     padding-left: 30px;
     margin-top: 10px;
-    animation: hideSuccess 0s ease-in 5s forwards;
    
 }
 
@@ -181,15 +180,6 @@ form.successful .success {
     text-align: center;
     margin-top: 30px;
 }
-
-@keyframes hideSuccess {
-    to {
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
-}
-
 
 
 @keyframes enterfromleft {

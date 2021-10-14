@@ -14,7 +14,11 @@ form.addEventListener('submit', e => {
     }else{
 
         form.classList.remove('error');
-        form.classList.add('successful')
+        form.classList.add('successful');
+        setTimeout(() => {
+            location.reload();
+        }, 5000);
+        
     }
 
 })
