@@ -12,7 +12,7 @@ body {
     max-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/bg-desktop.svg);
+    background-image: url('./images/bg-desktop.svg');
     background-color: hsl(257, 40%, 49%);
     color: #fff;
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@ h1 {
 p {
     font-family: 'Open sans';
     font-size: 1.1rem;
+    opacity: 0.8;
 }
 
 .container {
@@ -43,7 +44,7 @@ p {
 
 header img {
   width: 15%;
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
 .flex-row {
@@ -70,10 +71,25 @@ header img {
     padding: 15px 50px;
     border-radius: 30px;
     border: none;
+    color: hsl(257, 40%, 49%);
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+
 }
 
-
-.social {
-
+.socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    
+}
+.socials a {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-flex;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 8px;
+    text-decoration: none;
 }
