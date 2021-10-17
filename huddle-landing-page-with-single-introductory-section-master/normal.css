@@ -44,12 +44,12 @@ p {
 
 header img {
   width: 15%;
-  margin: 40px 0;
+  margin-top: 50px ;
 }
 
 .flex-row {
     display: flex;
-    margin-top: 50px;
+    margin-top: 90px;
     
     
 }
@@ -73,7 +73,13 @@ header img {
     border: none;
     color: hsl(257, 40%, 49%);
     box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: #fff;
+    outline: none;
 
+}
+.flex-row .right  button:hover {
+    background-color: hsl(300, 69%, 71%);
 }
 
 .socials {
@@ -88,8 +94,22 @@ header img {
     border: 1px solid #fff;
     display: inline-flex;
     color: #fff;
+    justify-content: center;
+    align-items: center;
     margin-left: 10px;
     font-size: 15px;
     padding: 8px;
+    width: 30px;
+    height: 30px;
     text-decoration: none;
 }
+
+.socials a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.footer p {
+    text-align: center;
+}
+   
