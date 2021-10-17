@@ -27,3 +27,9 @@ img {
     max-width: 100%;
     width: 1200px;
 }
+
+
+.flex-row {
+    display: flex;
+    margin: 20px 0;
+}
