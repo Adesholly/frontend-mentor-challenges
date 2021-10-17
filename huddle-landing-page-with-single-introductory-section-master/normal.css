@@ -4,18 +4,26 @@
 
 
 body {
-    margin: 0;
+  
     display: flex;
     max-height: 100vh;
     justify-content: center;
     align-items: center;
     background-image: url(./images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
- 
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+ 
 
 
 img {
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
 }
